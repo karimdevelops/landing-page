@@ -4,10 +4,37 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.hero {
-  height: 82vh;
+h2,
+ul {
+  margin: 0;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.hero,
+#nav {
   background-color: #1F2937;
-  padding: 20px 200px;
+  padding: 0 200px;
+}
+
+#nav {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.hero {
+  height:77.2vh;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-text {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #nav a,
@@ -36,7 +63,6 @@ body {
 
 ul {
   margin: 0;
-  margin-bottom: 120px;
   padding: 0;
   list-style-type: none;
   display: flex;
