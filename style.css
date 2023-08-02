@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.hero {
+  height: 82vh;
+  background-color: #1F2937;
+}
