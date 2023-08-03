@@ -33,6 +33,19 @@ p {
   gap: 20px;
 }
 
+.info-container {
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+}
+
+.info-sub {
+  width: 150px;
+}
+
 .hero-text {
   display: flex;
   flex-wrap: wrap;
