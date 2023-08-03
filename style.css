@@ -4,6 +4,9 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 h2,
