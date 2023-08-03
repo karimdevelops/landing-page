@@ -62,10 +62,11 @@ p {
   font-size: 48px;
 }
 
-h2.information-heading {
+h2.info-heading {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
+  text-align: center;
 }
 
 ul {
@@ -102,9 +103,13 @@ img.placeholder {
   color: white;
 }
 
-.information img {
+.info-container img {
   height: 150px;
   width: 150px;
-  border: 15px solid #3882F6;
-  border-radius: 12px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+}
+
+.info-container div {
+  color: darkslategray;
 }
