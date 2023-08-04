@@ -6,7 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
 }
 
 h2,
@@ -42,11 +42,20 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 42px;
+  gap: 62px;
 }
 
 .info-sub {
   width: 150px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
 
 .hero-text {
@@ -135,4 +144,5 @@ img.placeholder {
   font-style: italic;
   font-weight: 300;
   color: #1F2937;
+  width: 800px;
 }
