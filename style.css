@@ -188,4 +188,7 @@ h2.info-heading {
   font-size: 18px;
   color: #F9FAF8;
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
