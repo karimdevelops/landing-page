@@ -75,6 +75,10 @@ button {
   text-decoration: none;
 }
 
+#nav li a:hover {
+  border-bottom: 5px solid #3882F6;
+}
+
 .header-logo,
 .hero .main-text {
   color: #F9FAF8;
