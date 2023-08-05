@@ -127,6 +127,11 @@ img.placeholder {
 
 .info-sub {
   width: 150px;
+  transition: scale .2s;
+}
+
+.info-sub:hover {
+  scale: 1.2;
 }
 
 h2.info-heading {
