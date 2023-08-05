@@ -38,6 +38,11 @@ button {
   padding: 8px 30px;
 }
 
+button:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
+}
+
 .hero,
 #nav {
   background-color: #1F2937;
