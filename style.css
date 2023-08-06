@@ -30,20 +30,20 @@ ul {
 
 button {
   background-color: #3882F6;
-  color: white;
+  color: #F9FAF8;
   font-size: 18px;
   font-weight: 700;
-  border: 2px solid #3882F6;
+  border: 1px solid #3882F6;
   border-radius: 8px;
   padding: 8px 30px;
-  transition-property: scale, background-color;
-  transition-duration: .2s, .5s;
+  transition-property: scale, border, background-color;
+  transition-timing-function: ease-out;
+  transition-duration: .2s, .4s, .5s;
 }
 
 .hero button:hover {
   background-color: #1F2937;
-  border: 2px solid #F9FAF8;
-  color: #3882F6;
+  border: 1px solid #F9FAF8;
 }
 
 .sign-up button:hover {
