@@ -6,13 +6,17 @@
   font-family: Roboto, arial, sans-serif;
 }
 
+body,
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
 .home {
   min-height: 95vh;
   background: #1f2937;
   padding: 22px 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 120px;
 }
 
 .content {
