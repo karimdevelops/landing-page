@@ -23,6 +23,12 @@
   width: 450px;
 }
 
+.content img {
+  background: #6d747e;
+  width: 500px;
+  color: white;
+}
+
 .header ul {
   color: white;
   list-style-type: none;
