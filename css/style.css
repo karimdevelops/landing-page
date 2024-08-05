@@ -26,7 +26,11 @@
 .content img {
   background: #6d747e;
   width: 500px;
+  padding: 10px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header ul {
