@@ -98,8 +98,9 @@ ul {
 }
 
 .info ul {
+  color: #36454f;
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .info ul li {
