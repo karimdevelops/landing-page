@@ -10,7 +10,7 @@ body,
 .home {
   display: flex;
   flex-direction: column;
-  gap: 120px;
+  gap: 50px;
 }
 
 .home {
@@ -21,6 +21,7 @@ body,
 
 .content {
   display: flex;
+  margin-top: 80px;
 }
 
 .hero {
@@ -37,9 +38,12 @@ body,
   justify-content: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header ul {
   color: white;
-  list-style-type: none;
   display: flex;
   align-items: baseline;
   gap: 20px;
@@ -77,4 +81,22 @@ body,
   margin-top: 15px;
   border: 0px solid black;
   border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.info h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.info ul {
+  color: #1f2937;
 }
