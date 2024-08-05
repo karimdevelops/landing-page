@@ -53,3 +53,14 @@
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.content button {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background: #3882f6;
+  padding: 8px 38px;
+  margin-top: 15px;
+  border: 0px solid black;
+  border-radius: 8px;
+}
