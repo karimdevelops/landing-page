@@ -115,3 +115,11 @@ ul {
   border-radius: 15px;
   margin: 5px 0;
 }
+
+.quote {
+  min-height: 50vh;
+  background: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
