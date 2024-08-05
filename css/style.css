@@ -99,4 +99,11 @@ ul {
 
 .info ul {
   color: #1f2937;
+  display: flex;
+  gap: 40px;
+}
+
+.info ul li {
+  width: 150px;
+  text-align: center;
 }
