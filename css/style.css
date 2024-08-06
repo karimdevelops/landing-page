@@ -141,6 +141,10 @@ div.info {
   text-align: right;
 }
 
+.signup-container {
+  min-height: 60vh;
+}
+
 .signup {
   background: #3882f6;
   color: #f9faf8;
