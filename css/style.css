@@ -160,6 +160,10 @@ div.info {
   font-weight: 900;
 }
 
+.signup-subtext {
+  font-size: 18px;
+}
+
 .signup-button {
   border: 3px solid #f9faf8;
 }
