@@ -28,14 +28,20 @@ body,
   width: 450px;
 }
 
+.content img,
+.info,
+.quote,
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .content img {
   background: #6d747e;
   width: 500px;
   padding: 10px;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 ul {
@@ -83,11 +89,10 @@ ul {
   border-radius: 8px;
 }
 
-.info {
+div.info {
   min-height: 60vh;
-  display: flex;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
   gap: 40px;
 }
 
@@ -119,10 +124,6 @@ ul {
 .quote {
   min-height: 70vh;
   background: #e5e7eb;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .quote-text {
