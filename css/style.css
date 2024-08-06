@@ -79,7 +79,8 @@ ul {
   color: #e5e7eb;
 }
 
-.content button {
+.content button,
+.signup-button {
   font-size: 18px;
   font-weight: 700;
   color: white;
@@ -157,4 +158,8 @@ div.info {
 
 .signup-maintext {
   font-weight: 900;
+}
+
+.signup-button {
+  border: 3px solid #f9faf8;
 }
