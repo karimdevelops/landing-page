@@ -171,5 +171,8 @@ div.info {
 }
 
 .footer {
-  min-height: 10vh;
+  min-height: 15vh;
+  font-size: 18px;
+  color: #f9faf8;
+  background: #1f2937;
 }
