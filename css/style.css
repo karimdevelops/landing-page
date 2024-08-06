@@ -31,7 +31,8 @@ body,
 .content img,
 .info,
 .quote,
-.signup-container {
+.signup-container,
+.signup {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,7 +144,10 @@ div.info {
 .signup {
   background: #3882f6;
   color: #f9faf8;
-  font-size: 18px;
+  font-size: 24px;
+  padding: 50px 150px;
+  border: 0px solid white;
+  border-radius: 10px;
 }
 
 .signup-maintext {
