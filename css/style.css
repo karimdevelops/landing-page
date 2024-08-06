@@ -139,3 +139,13 @@ div.info {
   font-weight: 700;
   text-align: right;
 }
+
+.signup {
+  background: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.signup-maintext {
+  font-weight: 900;
+}
